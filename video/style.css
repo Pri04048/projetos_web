@@ -1,0 +1,27 @@
+.video-player{
+    position: relative;
+    width: 640px;
+}
+.video{
+    width: 100%;
+    height: auto;
+}
+.controls{
+    background-color: rgba(0, 0, 0, 0) ;
+    color: rgb(124 ,41 ,41);
+    align-items:center ;
+    position : flex;
+    display: flex;
+    padding : 10px;
+    bottom : 0;
+    left : 0;
+    width : 640px;
+}
+.controls button, .controls input{
+    margin-right: 10px;
+}
+.video{
+    width: 100%;
+    height: auto;
+
+}

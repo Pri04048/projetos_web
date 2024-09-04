@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 215, 235);
+    min-height: 100vh;
+}
+
+form {
+    background-color: rgb(216, 69, 113);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(243, 123, 179);
+}
+
+label {
+    display: block;
+    margin-block: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(143, 67, 67);
+}
+
+textarea {
+    height: 120px;
+}
+button {
+    background-color: rgb(145, 32, 84);
+    color:aliceblue;
+    padding: 12px 20px; 
+    border: none; /* sem borda*/
+    cursor: pointer;/* altera o cursor do mouse*/
+    border-radius: 15px;/* arredonda a borda*/
+}

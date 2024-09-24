@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FICHA DE MATRÍCULA</h1>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+            <label for="CPF">Data de Matrícula: <input id="Datamatricula" name="Datamatricula" type="text"
+                    required /></label>
+            <label for="Codmatricula">Código da Matrícula: <input id="Codmatricula" name="Codmatricula" type="text"
+                    required /></label>
+        </fieldset>
+        <h2>DADOS DO ALUNO</h2>
+        <fieldset>
+            <label for="Nome">Nome: <input id="Nome" name="Nome" type="text" required /></label>
+            <label for="Datanasc">Data de Nasc: <input id="Datanasc" name="Datanasc" type="text" required /></label>
+
+            <label for="Natu">Naturalidade: <input id="Natu" name="Natu" type="text" required /></label>
+            <label for="UF">UF: <select name="uf" id="uf">
+                <option value="">Selecione uma UF</option>
+                <option value="AC">Acre (AC)</option>
+                <option value="AL">Alagoas (AL)</option>
+                <option value="AP">Amapá (AP)</option>
+                <option value="AM">Amazonas (AM)</option>
+                <option value="BA">Bahia (BA)</option>
+                <option value="CE">Ceará (CE)</option>
+                <option value="DF">Distrito Federal (DF)</option>
+                <option value="ES">Espírito Santo (ES)</option>
+                <option value="GO">Goiás (GO)</option>
+                <option value="MA">Maranhão (MA)</option>
+                <option value="MT">Mato Grosso (MT)</option>
+                <option value="MS">Mato Grosso do Sul (MS)</option>
+                <option value="MG">Minas Gerais (MG)</option>
+                <option value="PA">Pará (PA)</option>
+                <option value="PB">Paraíba (PB)</option>
+                <option value="PR">Paraná (PR)</option>
+                <option value="PE">Pernambuco (PE)</option>
+                <option value="PI">Piauí (PI)</option>
+                <option value="RJ">Rio de Janeiro (RJ)</option>
+                <option value="RN">Rio Grande do Norte (RN)</option>
+                <option value="RS">Rio Grande do Sul (RS)</option>
+                <option value="RO">Rondônia (RO)</option>
+                <option value="RR">Roraima (RR)</option>
+                <option value="SC">Santa Catarina (SC)</option>
+                <option value="SE">Sergipe (SE)</option>
+                <option value="SP">São Paulo (SP)</option>
+                <option value="TO">Tocantins (TO)</option>
+            </select></label>
+
+            <label for="CPF">CPF: <input id="CPF" name="CPF" type="text" required /></label>
+
+            <label for="RG">RG: <input id="RG" name="RG" type="text" required /></label>
+
+            <label for="Orgexpd">Orgão Exped <input id="Orgexpd" name="Orgexpd" type="text" required /></label>
+
+            <label for="Sex">Sexo: <input id="Sex" name="Sex" type="text" required /></label>
+        </fieldset>
+        <h2>FILIAÇÃO</h2>
+    <fieldset>
+            <label for="Pai">Pai: <input id="Pai" name="Pai" type="text" required /></label>
+
+            <label for="Tel">Telefone: <input id="Tel" name="Tel" type="text" required /></label>
+            
+            <label for="Mae">Mãe: <input id="Mae" name="Mâe" type="text" required /></label>
+
+            <label for="Tel">Telefone: <input id="Tel" name="Tel" type="text" required /></label>
+
+            <label for="NomeReso">Nome do Responsável: <input id="NomeResp" name="NomeReso" type="text" required /></label>
+
+            <label for="GrauParen">Grau de Parentesco: <input id="GrauParen" name="GrauParen" type="text" required /></label>
+
+            <label for="Tel">Telefone: <input id="Tel" name="Tel" type="text" required /></label>
+    </fieldset>
+    <h2>ENDEREÇO</h2>
+    <fieldset>
+            <label for="Rua">Rua: <input id="Rua" name="Rua" type="text" required /></label>
+
+            <label for="Num">Nº: <input id="Num" name="Num" type="text" required /></label>
+
+            <label for="Bai">Bairro: <input id="Bai" name="Bai" type="text" required /></label>
+
+            <label for="Com">Completamento: <input id="Com" name="Com" type="text" required /></label>
+
+            <label for="CEP">CEP: <input id="CEP" name="CEP" type="text" required /></label>
+
+            <label for="estado">Estado: 
+                <select name="estados" id="estados">
+                    <option value="">Selecione um estado</option>
+                    <option value="AC">Acre (AC)</option>
+                    <option value="AL">Alagoas (AL)</option>
+                    <option value="AP">Amapá (AP)</option>
+                    <option value="AM">Amazonas (AM)</option>
+                    <option value="BA">Bahia (BA)</option>
+                    <option value="CE">Ceará (CE)</option>
+                    <option value="DF">Distrito Federal (DF)</option>
+                    <option value="ES">Espírito Santo (ES)</option>
+                    <option value="GO">Goiás (GO)</option>
+                    <option value="MA">Maranhão (MA)</option>
+                    <option value="MT">Mato Grosso (MT)</option>
+                    <option value="MS">Mato Grosso do Sul (MS)</option>
+                    <option value="MG">Minas Gerais (MG)</option>
+                    <option value="PA">Pará (PA)</option>
+                    <option value="PB">Paraíba (PB)</option>
+                    <option value="PR">Paraná (PR)</option>
+                    <option value="PE">Pernambuco (PE)</option>
+                    <option value="PI">Piauí (PI)</option>
+                    <option value="RJ">Rio de Janeiro (RJ)</option>
+                    <option value="RN">Rio Grande do Norte (RN)</option>
+                    <option value="RS">Rio Grande do Sul (RS)</option>
+                    <option value="RO">Rondônia (RO)</option>
+                    <option value="RR">Roraima (RR)</option>
+                    <option value="SC">Santa Catarina (SC)</option>
+                    <option value="SE">Sergipe (SE)</option>
+                    <option value="SP">São Paulo (SP)</option>
+                    <option value="TO">Tocantins (TO)</option>
+                </select>
+            </label>
+         </fieldset>
+         <h2>ANO ESCOLAR</h2>
+         <fieldset>
+            <label for="anoescolar">Selecione o ano escolar: </label>
+            <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" checked /> Ed. Infantil:Maternal</label>
+            <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" /> Pré-escola</label>
+            <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" checked /> Ensino fundamental</label>
+            <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" /> Ensino Médio</label>
+            <label for="anoescolar">Ano escolar: <input id="anoescolar" name="anoescolar" type="text" required /></label>
+         </fieldset>
+         <h2>RELAÇÃO DE DOCUMENTOS PARA A MATRÍCULA</h2>
+    <fieldset>
+        <label for="QTD">QTD: <input id="QTD" name="QTD" type="text" required /></label>
+        <label for="DOC">DOCUMENTO: <input id="DOC" name="DOC" type="text" required /></label>
+    </fieldset>
+    <h2>OBSERVAÇÃOES</h2>
+    <fieldset>
+    <label for="digite">Digite aqui:
+        <textarea id="digite" name="digite" rows="3" cols="30" ></textarea>
+      </label>
+    <input type="submit" value="Submit" />
+         </fieldset>
+    
+
+    </form>
+
+
+
+
+</body>
+
+</html>
